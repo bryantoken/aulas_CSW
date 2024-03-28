@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio dos links</title>
+    <script>
+        function Conta(){
+            var num = document.getElementById("num").value;
+            
+            console.log(num)
+            for (let i = 0; i < num; i++) {
+                console.log(i + 1)
+            }
+        }
+    </script>
+</head>
+
+<body>
+    
+    <h1>Desafio dos Links</h1>
+    <h2>Últimas notícias do ES</h2>
+
+    <ul>
+        <li><a href="" rel="next" target="_self">Grande Vitória</a><ul>
+                <li><a href="./regiao/grandeVitoria/vilavelha.html" rel="next" target="_self">Vila Velha</a></li>
+                <li><a href="./regiao/grandeVitoria/vitoria.html" rel="next" target="_self">Vitória</a></li>
+                <li><a href="./regiao/grandeVitoria/serra.html" rel="next" target="_blank">Serra (Fechar Janela)</a></li>
+            </ul>
+        </li>
+
+
+    </ul>
+    <ul>
+        <li>
+            <a href="" rel="next" target="_self">Norte</a>
+            <ul>
+                <li><a href="./regiao/norte/fundao.html" rel="next" target="_self">Fundão</a></li>
+                <li><a href="./regiao/norte/ibiracu.html" rel="next" target="_self">Ibiraçu</a></li>
+                <li><a href="./regiao/norte/santaTeresa.html" rel="next" target="_self">Santa Teresa</a></li>
+        </li>
+    </ul>
+
+
+    </ul>
+    <ul>
+        <li>
+            <a href="" rel="next" target="_self">Sul</a>
+            <ul>
+            <li><a href="./regiao/sul/mimosoSul.html" rel="next" target="_self">Mimoso do Sul</a></li>
+            <li><a href="./regiao/sul/cachoeiroItapemirim.html" rel="next" target="_self">Cachoeiro do Itapemirim</a></li>
+            </ul>
+        </li>
+    
+
+    </ul>
+
+
+<h2>
+    Arquivos
+    <ul>
+        <li>
+            <button>
+                <a href="arquivos/arquivo.pdf" type="application/pdf" download="arquivo.pdf" target="_blank">Baixe PDF</a>
+            </button>
+            
+            <button>
+                <a href="arquivos/arquivo.doc" type="application/doc" download="arquivo.doc" target="_blank">Baixe DOC</a>
+            </button>
+        </li>
+    </ul>
+</h2>
+<input type="number" id="num">
+    <a href="javascript:Conta()">Enviar</a>
+    <p>OBS: Abra o console, em inspecionar</p>
+</body>
+
+</html>

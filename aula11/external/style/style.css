@@ -1,0 +1,28 @@
+body {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  background-color: salmon;
+  color: white;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+.div-link {
+  display: flex;
+  justify-content: end;
+}
+
+.div-body {
+  width: 800px;
+}
